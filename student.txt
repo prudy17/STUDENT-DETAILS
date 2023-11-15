@@ -1,0 +1,81 @@
+Definition of terms as used in C programming
+a)Compiler-a special program that translates a programming language's source code into machine code, bytecode or another programming language. 
+b)Source code- programming statements that are created by a programmer with a text editor or a visual programming tool and then saved in a file.
+c)Object code-the output, a compiled file, which is produced when the Source Code is compiled with a C compiler.
+d)Linkers-an important utility program that takes the object files, produced by the assembler and compiler, and other code to join them into a single executable file
+
+Algorithm to Add Two Numbers in C
+1.Start.
+2.Declare variables num1, num2, and res.
+3.Read values for num1 and num2.
+4.Add the values of num1 and num2 and assigned the result to a res variable.
+5.Print res.
+6.Stop.
+
+
+
+          Differences between a compiler and an interpreter
+1.Execution Process:
+Compiler: A compiler translates the entire source code into machine code or an intermediate code before execution. The generated executable file is independent of the source code and can be executed multiple times without recompilation.
+Interpreter: An interpreter translates and executes the source code line by line. It does not generate an independent executable file. Each time the program is run, the interpreter needs to translate the source code again.
+2.Speed of Execution:
+Compiler: Generally, programs compiled by a compiler tend to run faster since the entire source code is translated before execution. The compiled code is optimized for the target machine architecture.
+Interpreter: Interpreted code usually runs slower than compiled code because it is translated on-the-fly during execution. However, modern interpreters often include optimization techniques to improve performance.
+3.Portability:
+Compiler: The compiled code is usually platform-dependent. If you want to run a program on a different platform, you need to recompile it for that specific platform.
+Interpreter: Interpreters are more portable, as they can run the same source code on different platforms without the need for recompilation. However, the interpreter itself must be available for each platform.
+4.Debugging:
+Compiler: Debugging can be more challenging in compiled languages, as the error messages may refer to the machine code rather than the original source code. Debugging information needs to be generated during compilation to aid in this process.
+Interpreter: Debugging is often easier in interpreted languages. Error messages usually point directly to the line of code that caused the issue, simplifying the debugging process.
+5.Memory Usage:
+Compiler: Compiled programs generally consume less memory during execution since the entire program is translated before running.
+Interpreter: Interpreters may require more memory because they need to keep the source code, intermediate representations, and other runtime data in memory while the program is running.
+6.Examples:
+Compiler: Examples of compiled languages include C, C++, and Java (to some extent, as Java uses a combination of compilation and interpretation with the Java Virtual Machine).
+Interpreter: Examples of interpreted languages include Python, Ruby, and JavaScript (though JavaScript is often Just-In-Time compiled by modern engines).
+
+
+
+
+
+In C programming, operators are symbols that perform operations on operands. The main categories of operators in C include:
+1.Arithmetic Operators:
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus, remainder after division)
+2.Relational Operators:
+== (Equal to)
+!= (Not equal to)
+< (Less than)
+> (Greater than)
+<= (Less than or equal to)
+>= (Greater than or equal to)
+3.Logical Operators:
+&& (Logical AND)
+|| (Logical OR)
+! (Logical NOT)
+4.Assignment Operators:
+= (Assignment)
++= (Add and assign)
+-= (Subtract and assign)
+*= (Multiply and assign)
+/= (Divide and assign)
+%= (Modulus and assign)
+5.Increment and Decrement Operators:
+++ (Increment by 1)
+-- (Decrement by 1)
+6.Bitwise Operators:
+& (Bitwise AND)
+| (Bitwise OR)
+^ (Bitwise XOR)
+~ (Bitwise NOT)
+<< (Left shift)
+>> (Right shift)
+7.Conditional (Ternary) Operator:
+? : (Conditional operator)
+8.Comma Operator:
+, (Comma operator)
+9.Sizeof Operator:
+sizeof (Returns the size of a data type or object in bytes)
